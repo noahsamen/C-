@@ -1,0 +1,37 @@
+#include <iostream>
+void function_1(unsigned int ggg){
+  if(ggg>22){
+    std::cout<<"\nHHH";
+  }else{
+    std::cout<<"\nJJJ";
+  }
+  return;
+}
+int mm(int yy, int tt){
+  if(yy<tt){
+    return yy;
+  }else{
+    return  tt;
+  }
+}
+void hhh_1(){
+  std::cout<<"\nBoy";
+  return;
+}
+int llu(){
+  return  1823;
+}
+int main() {
+ std::cout<<"calling using function";
+  function_1(32);
+  function_1(2);
+    for(int t{1};t<9;++t){
+    //function_1{t};
+    }
+  int result1 = mm(2,9);
+  std::cout<<"\nmm value equals:"<<result1;
+  int hkj{};
+  hkj = llu();
+  std::cout<<"\nreturn the value:"<<hkj;
+  
+}
